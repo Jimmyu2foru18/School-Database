@@ -1,45 +1,46 @@
 # Contributing Guidelines
 
-## Coding Standards
-- Follow the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
-- Use meaningful and descriptive variable and function names.
-- Write clear and concise commit messages.
-
-## Commit Guidelines
-- Use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages.
-- Example: `feat(auth): implement user login functionality`
-
-## Pull Requests
-- Ensure all tests pass before creating a pull request.
-- Provide a clear description of the changes made.
-- Assign at least one reviewer from the development team.
-
 ## Code of Conduct
-- Adhere to the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
-- Be respectful and considerate in all interactions.
-- Report any unacceptable behavior to the project maintainers.
+We are committed to providing a welcoming and inspiring community for all. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Issue Guidelines
-- Use descriptive titles and provide detailed information when opening issues.
-- Label issues appropriately (e.g., bug, enhancement, documentation).
-- Follow the [issue template](.github/ISSUE_TEMPLATE.md) when submitting new issues.
+## Getting Started
 
-## Branching Strategy
-- **Main Branch (`main`):** Contains production-ready code.
-- **Development Branch (`develop`):** Integration branch for feature branches.
-- **Feature Branches (`feature/*`):** For developing new features.
-- **Hotfix Branches (`hotfix/*`):** For critical fixes in production.
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- Git
 
-## Testing Requirements
-- Write unit tests for all new features and bug fixes.
-- Ensure 80% code coverage for all modules.
-- Run linting and formatting checks before committing.
+### Setting Up Development Environment
+1. Fork the repository
+2. Clone your fork:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/School-Database.git
+   ```
+3. Add upstream remote:
+   ```bash
+   git remote add upstream https://github.com/Jimmyu2foru18/School-Database.git
+   ```
+4. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-## Code Review Process
-- At least two approvals are required before merging a pull request.
-- Reviewers should check for code quality, adherence to standards, and functionality.
-- Provide constructive feedback and request changes if necessary.
+## Development Workflow
 
-## Git Workflow
+### 1. Branch Naming Convention
+- Feature branches: `feature/feature-name`
+- Bug fixes: `fix/bug-name`
+- Documentation: `docs/description`
+- Performance improvements: `perf/description`
 
-### Cloning the Repository
+### 2. Commit Messages
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
+- `feat:` New features
+- `fix:` Bug fixes
+- `docs:` Documentation changes
+- `style:` Code style changes
+- `refactor:` Code refactoring
+- `test:` Adding or modifying tests
+- `chore:` Maintenance tasks
+
+Example:
