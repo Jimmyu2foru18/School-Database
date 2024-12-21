@@ -1,8 +1,6 @@
-# Comprehensive School Database System Project Roadmap
+# School Database System Project
 
 ## Phase 1: Project Initiation and Planning (Weeks 1-2)
-
-### Week 1: Project Kickoff
 
 #### Day 1-2: Project Definition
 - Conduct kickoff meeting with all stakeholders
