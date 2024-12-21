@@ -19,8 +19,8 @@
 ---
 
 ## **2. Technology Stack**
-- **Front-End**: HTML, CSS, JavaScript, Bootstrap - lets use react instead if possible.
-- **Back-End**: PHP (with MVC structure) -lets reapply thias without MVC structure ).
+- **Front-End**: HTML, CSS, JavaScript
+- **Back-End**: PHP
 - **Database**: MySQL.
 - **Server**: Apache (via XAMPP for local development).
 
